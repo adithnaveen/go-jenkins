@@ -12,11 +12,11 @@ pipeline {
             steps {
                 echo 'Installing dependencies'
                 sh 'go version'
-                sh 'go get -u golang.org/x/lint/golint'
+              
             }
         }
         
-        stage('Build') {
+        stage('Execute') {
             steps {
                 echo 'Compiling and building'
                 sh 'go run main.go'
