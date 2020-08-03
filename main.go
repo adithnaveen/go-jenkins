@@ -15,5 +15,5 @@ func main() {
 	api := router.Group("/api")
 	api.GET("/", HomePage)
 
-	router.Run("0.0.0.0:5656") //ipaddress:8080/ping
+	router.Run("0.0.0.0:5757") //ipaddress:8080/ping
 }
